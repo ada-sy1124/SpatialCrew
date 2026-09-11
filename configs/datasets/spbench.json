@@ -1,0 +1,5 @@
+{
+    "benchmark": "spbench",
+    "subsets": ["si", "mv"],
+    "num_key_frames": 16
+}
