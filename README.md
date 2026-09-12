@@ -14,16 +14,19 @@ SpatialCrew is a multi-agent framework that decomposes spatial reasoning tasks i
                    ┌───────────┼───────────┐
                    ▼           ▼           ▼
            ┌──────────┐ ┌──────────┐ ┌──────────┐
-           │Perception│ │ Geometry │ │ Temporal  │
-           │Specialist│ │Specialist│ │Specialist │
-           └────┬─────┘ └────┬─────┘ └────┬─────┘
-                │             │             │
+           │Perception│ │ Geometry │ │ Temporal │
+           │Specialist│ │Specialist│ │Specialist│
+           └────┬─────┘ └────┬─────┘ └──── ┬────┘
+                │            │             │
         ┌───────┴───┐   ┌────┴────┐   ┌────┴────┐
         │SAM3│Mask  │   │Reconstr.│   │Time     │
         │Draw│      │   │Geometry │   │Graph    │
         └───────────┘   └─────────┘   └─────────┘
                GPU Tools (RPC)       CPU Tools (local)
 ```
+
+<img width="900" height="523" alt="image" src="https://github.com/user-attachments/assets/09a670e2-48d7-4561-aa58-e6300a826327" />
+
 
 ### Key Features
 
